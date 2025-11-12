@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lucky Shrub — Garden Design • Maintenance • Nursery</title>
+  <meta name="description" content="Lucky Shrub is a Tucson, Arizona garden design firm and plant nursery that transforms any space into an oasis.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img src="/images/Asset 1@3x.png" alt="Lucky Shrub logo" class="logo">
+        <h1 class="brand-name">LUCKY SHRUB</h1>
+      </div>
+      <nav class="site-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#nursery">Nursery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- PROMO -->
+    <section class="promo">
+      <div class="promo-content">
+        <h2>30% Off Design Consultations This Week</h2>
+        <p>Book a consultation with Lucky Shrub and transform your outdoor space into a thriving oasis. Offer valid until the end of the week!</p>
+        <a href="#contact" class="btn btn--primary">Book Now</a>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="services" class="feature-grid">
+      <article class="feature-card">
+        <img src="/images/Asset 3@3x.png" alt="Garden Design" class="feature-icon" />
+        <h3>Garden Design</h3>
+        <p>Custom garden planning that integrates native plants and sustainable features for year-round beauty.</p>
+        <a href="#contact" class="link">Start your design →</a>
+      </article>
+
+      <article class="feature-card">
+        <img src="/images/Asset 1@3x.png" alt="Maintenance" class="feature-icon" />
+        <h3>Maintenance</h3>
+        <p>Keep your garden vibrant with regular maintenance, pruning, irrigation, and lawn alternatives.</p>
+        <a href="#contact" class="link">Request maintenance →</a>
+      </article>
+
+      <article id="nursery" class="feature-card">
+        <img src="/images/Asset 3@3x.png" alt="Nursery" class="feature-icon" />
+        <h3>Plant Nursery</h3>
+        <p>Find everything from lush houseplants to desert perennials — curated and grown with care by Lucky Shrub.</p>
+        <a href="#contact" class="link">Explore plants →</a>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <p><strong>Location:</strong> Tucson, Arizona • <em>By appointment only</em></p>
+      <p><strong>Email:</strong> <a href="mailto:hello@luckyshrub.example" class="link">hello@luckyshrub.example</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+15205551234" class="link">(520) 555-1234</a></p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="/images/Asset 2@3x.png" alt="Lucky Shrub logo small" class="logo small">
+      <p>© <span id="year"></span> Lucky Shrub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
