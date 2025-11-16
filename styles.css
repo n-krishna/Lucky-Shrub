@@ -48,24 +48,31 @@ a { text-decoration: none; color: inherit; }
   color: var(--brand-dark);
 }
 
-/* NAVIGATION */
+/* NAVIGATION — UPDATED */
+/* NAVIGATION — UPDATED */
 .site-nav {
   border-top: 2px solid #e0ebe7;
-  padding-top: 0.4rem;
+  padding-top: 0.7rem;
 }
+
 .nav-list {
   display: flex;
+  justify-content: center;     /* CENTER NAV */
   list-style: none;
-  gap: 2rem;
+  gap: 3rem;                   /* MORE SPACING */
 }
+
 .nav-list a {
   color: var(--brand);
-  font-weight: 600;
-  font-size: 0.95rem;
-  transition: color var(--transition);
+  font-weight: 700;            /* BOLDER TEXT */
+  font-size: 1.2rem;           /* BIGGER FONT */
+  letter-spacing: 0.5px;       /* SLIGHTLY WIDER */
+  transition: color var(--transition), transform var(--transition);
 }
+
 .nav-list a:hover {
   color: var(--brand-dark);
+  transform: scale(1.05);      /* SLIGHT ZOOM ON HOVER */
 }
 
 /* PROMO */
